@@ -1,0 +1,15 @@
+.default-input-field {
+    border-radius: 8px;
+}
+
+.input-group.invalid input {
+    border: 1p solid red;
+  
+    &:focus, &:hover {
+      border: 1p solid red;
+    }
+  }
+  
+  span.error-message {
+    color: red;
+  }

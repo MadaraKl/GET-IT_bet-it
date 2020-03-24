@@ -1,0 +1,76 @@
+@import 'assets/scss/_variables.scss';
+
+.app-header {
+  background-color: $headerColor;
+  padding: 0;
+  color: white;
+
+  .ant-row {
+    height: 100%;
+
+    .ant-col {
+      display: flex;
+      align-items: center;
+    }
+
+    .brand-logo {
+      height: 34px;
+      display: flex;
+    }
+
+    .app-header-content {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+
+      a {
+        color: #fff;
+      }
+
+      .anticon {
+        align-self: center;
+        margin-left: 15px;
+      }
+
+      .wallet-amount {
+        display: flex;
+        
+        p {
+          margin-bottom: 0;
+          font-weight: 700;
+        }
+
+        .anticon {
+          margin-right: 10px;
+        }
+        .amount-with-currency {
+          margin-left: 5px;
+          cursor: pointer;
+        }
+        .amount-spinner {
+          background-color: $headerColor;
+        }
+      }
+    }
+  }
+}
+
+.app-footer {
+  background-color: $backgroundColor;
+  padding: 40px 0;
+  color: $footerTextColor;
+}
+
+.app-content {
+  background-color: $backgroundColor;
+
+  .app-container {
+    margin-top: 32px;
+    margin-bottom: 6px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: white;
+
+  }
+}
+

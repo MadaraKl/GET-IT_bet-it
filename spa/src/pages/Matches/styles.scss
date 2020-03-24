@@ -1,0 +1,57 @@
+@import 'assets/scss/_variables.scss';
+
+$tableContentColor: #485E75;
+
+.ant-tabs {
+  .ant-tabs-bar {
+    margin-bottom: 0;
+  }
+
+  .ant-tabs-tab {
+    padding: 20px 50px;
+    font-weight: 500;
+    color: $textColor;
+  }
+
+  .ant-tabs-tab-active {
+    color: $textColor;
+  }
+
+  .ant-tabs-ink-bar {
+    background-color: $primaryColor;
+    height: 5px;
+  }
+
+  .ant-tabs-content {
+    padding-top: 40px;
+  }
+}
+
+.ant-table.matches-table {
+  thead .ant-table-cell {
+    padding: 8px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  tbody .ant-table-cell {
+    padding: 20px 8px;
+    color: $tableContentColor;
+
+    .primary-button {
+      width: 100%;
+    }
+
+    .bet-amount {
+      border: 1px dashed $primaryColor;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      padding: 4px 15px;
+      color: $backgroundColor;
+      width: 100%;
+    
+    }
+  }
+}
